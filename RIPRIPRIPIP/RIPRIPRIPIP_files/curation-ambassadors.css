@@ -1,0 +1,23 @@
+#natural-search {
+  text-align: center; }
+  #natural-search .search-form {
+    margin-bottom: 30px; }
+    #natural-search .search-form .form-text {
+      font-size: 52px;
+      padding: 5% 0; }
+    #natural-search .search-form .search-field-choice {
+      display: block;
+      font-size: 0.70em;
+      padding: 10px; }
+    #natural-search .search-form .search-dropdown {
+      display: inline-block;
+      border-bottom: dashed 3px #88AAA9; }
+
+@media (max-width: 991px) {
+  #natural-search .search-form .form-text {
+    font-size: 42px;
+    padding-right: 0; } }
+
+@media (max-width: 768px) {
+  #natural-search .search-form .form-text {
+    font-size: 32px; } }
